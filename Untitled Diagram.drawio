@@ -1,1 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2021-11-06T14:44:24.292Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 YaBrowser/21.9.2.169 Yowser/2.5 Safari/537.36" version="15.7.0" etag="02leA0sQnGOCkTgEAZQm" type="github"><diagram id="61MPamg2htP2b2cyIfU3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-06T15:26:17.245Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 YaBrowser/21.9.2.169 Yowser/2.5 Safari/537.36" etag="tIcHU2-nD8e-LsfhvBCb" version="15.7.0" type="github">
+  <diagram id="61MPamg2htP2b2cyIfU3" name="Page-1">
+    <mxGraphModel dx="1224" dy="829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h3_oz4dItKwVL3K8W-mL-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;" edge="1" parent="1" source="h3_oz4dItKwVL3K8W-mL-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3_oz4dItKwVL3K8W-mL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;" edge="1" parent="1" source="h3_oz4dItKwVL3K8W-mL-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3_oz4dItKwVL3K8W-mL-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;" edge="1" parent="1" source="h3_oz4dItKwVL3K8W-mL-6" target="h3_oz4dItKwVL3K8W-mL-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h3_oz4dItKwVL3K8W-mL-6" value="Менеджер:&#xa;- организация работы сотрудников&#xa;- ведение отчётности&#xa;- заказ канцелярии и пр." style="ellipse;whiteSpace=wrap;html=1;fontSize=19;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="30" width="270" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="h3_oz4dItKwVL3K8W-mL-8" value="Кассир:&#xa;- проведение денежных операций&#xa;- передача заказа повару&#xa;- ведение отчётности&#xa;- запрос на заказ канцелярии менеджеру&#xa;- запрос на заказ денежных средств&#xa;- передача денежных средств" style="ellipse;whiteSpace=wrap;html=1;fontSize=19;align=center;" vertex="1" parent="1">
+          <mxGeometry x="45" y="450" width="320" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="h3_oz4dItKwVL3K8W-mL-11" value="Повар:&#xa;- заказ продуктов&#xa;- приготовление пищи&#xa;- ведение отчётности&#xa;- передача готового заказа кассиру&#xa;- запрос на заказ стюарду&#xa;- запрос бюджета на закупки" style="ellipse;whiteSpace=wrap;html=1;fontSize=19;align=center;" vertex="1" parent="1">
+          <mxGeometry x="460" y="30" width="300" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="h3_oz4dItKwVL3K8W-mL-12" value="Стюард:&#xa;- уборка общ.пит. территории&#xa;- мытьё посуды и кухонного инвентаря&#xa;- заказ посуды и кухонного инвентаря&#xa;- ведение отчётности&#xa;- запрос бюджета на закупки" style="ellipse;whiteSpace=wrap;html=1;fontSize=19;align=center;" vertex="1" parent="1">
+          <mxGeometry x="490" y="490" width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="h3_oz4dItKwVL3K8W-mL-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=19;" edge="1" parent="1" source="h3_oz4dItKwVL3K8W-mL-12" target="h3_oz4dItKwVL3K8W-mL-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3_oz4dItKwVL3K8W-mL-19" value="" style="endArrow=classic;html=1;rounded=0;fontSize=19;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="480" as="sourcePoint" />
+            <mxPoint x="620" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3_oz4dItKwVL3K8W-mL-20" value="" style="endArrow=classic;html=1;rounded=0;fontSize=19;" edge="1" parent="1" source="h3_oz4dItKwVL3K8W-mL-6" target="h3_oz4dItKwVL3K8W-mL-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="270" as="sourcePoint" />
+            <mxPoint x="560" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3_oz4dItKwVL3K8W-mL-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=19;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="440" as="sourcePoint" />
+            <mxPoint x="230" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h3_oz4dItKwVL3K8W-mL-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=19;exitX=0;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="h3_oz4dItKwVL3K8W-mL-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="350" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
